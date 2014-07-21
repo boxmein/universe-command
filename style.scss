@@ -1,0 +1,41 @@
+// styling
+// sass style.scss style.css --no-cache
+$basecolor: #AFAFAF;
+$accent: lighten($basecolor, 20%);
+body {
+  background-color: black;
+  color: $basecolor;
+  font-weight: 300;
+  font-family: "Source Code Pro", monospace;
+  font-size: 14px;
+  max-width: 800px;
+  margin-left: 10%;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+// prompt
+
+.console {
+  font-size: 14px;
+  .jquery-console-focus .jquery-console-cursor {
+    background-color: $accent;
+    
+  }
+  .jquery-console-cursor {
+    background-color: darken($accent, 20%);
+    color: lighten(black, 50%);
+  }
+  .jquery-console-message-error {
+    color: #990000 + $accent;
+  }
+  .jquery-console-message-value {
+    color: $accent;
+  }
+}
