@@ -1,0 +1,21 @@
+{
+  "name": "universe-command",
+  "version": "1.0.0",
+  "description": "A command prompt for the entire universe!",
+  "main": "server-main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "boxmein",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.5.0",
+    "errorhandler": "^1.1.1",
+    "express": "^4.6.1",
+    "jade": "^1.4.2",
+    "logfmt": "^1.1.2",
+    "serve-favicon": "^2.0.1",
+    "serve-static": "^1.4.0",
+    "sqlite3": "^2.2.4"
+  }
+}
